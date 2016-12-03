@@ -23,7 +23,7 @@ public class Main {
         SessionFactory sessionFactory = metadata.buildSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-
+            ///
         Employee employee = new Employee();
         employee.setName("Stepan");
         employee.setSurname("Stepan1");
